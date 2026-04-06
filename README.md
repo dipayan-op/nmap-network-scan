@@ -23,7 +23,7 @@ nmap -sS -sV localhost
 
 ## 4. Scan Results
 
-![Scan Result](nmap -sS -sV after apache.png)
+![Scan Result](nmap-sS-sV_after_apache.png)
 
 | Port | State | Service | Version |
 |------|------|---------|---------|
@@ -60,7 +60,7 @@ nmap -A localhost
 - No active services detected
 - OS detection was inconclusive
 
-![Scan Result](nmap -A before apache.png)
+![Scan Result](nmap-A_before_apache.png)
 
 **Analysis:**
 With no running services, the system had a minimal attack surface. Nmap could not accurately fingerprint the operating system due to the absence of exposed services.
@@ -77,7 +77,7 @@ nmap -A localhost
 - Apache web server detected
 - OS identified as Linux (Kernel 5.x)
 
-![Scan Result](nmap -A after apache.png)
+![Scan Result](nmap-A_after_apache.png)
 
 **Analysis:**
 Once a service was enabled:
