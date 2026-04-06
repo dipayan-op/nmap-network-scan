@@ -23,6 +23,8 @@ nmap -sS -sV localhost
 
 ## 4. Scan Results
 
+![Scan Result](nmap -sS -sV after apache.png)
+
 | Port | State | Service | Version |
 |------|------|---------|---------|
 | 80   | open | http    | Apache 2.4.66 (Debian) |
@@ -58,6 +60,8 @@ nmap -A localhost
 - No active services detected
 - OS detection was inconclusive
 
+![Scan Result](nmap -A before apache.png)
+
 **Analysis:**
 With no running services, the system had a minimal attack surface. Nmap could not accurately fingerprint the operating system due to the absence of exposed services.
 
@@ -72,6 +76,8 @@ nmap -A localhost
 - Port 80 opened (HTTP)
 - Apache web server detected
 - OS identified as Linux (Kernel 5.x)
+
+![Scan Result](nmap -A after apache.png)
 
 **Analysis:**
 Once a service was enabled:
