@@ -1,5 +1,10 @@
 # nmap-network-scan
-# Nmap Network Scan Report
+
+# Nmap Network Scanning & Service Analysis Lab
+
+## About Nmap
+
+Nmap is a network scanning tool used to discover hosts, open ports, services, and operating systems by analyzing network responses. :contentReference[oaicite:1]{index=1}
 
 ## 1. Objective
 To perform a network scan on a local system using Nmap and identify open ports, running services, and potential security risks.
@@ -105,3 +110,21 @@ This experiment demonstrates that OS detection and service identification depend
 ## 8. Conclusion
 
 The scan successfully identified an active web service running on port 80. While this is expected for a web server, improper configuration and information exposure can introduce security risks. Implementing proper hardening measures and using HTTPS instead of HTTP is recommended to improve security.
+
+---
+
+## Key Learning
+
+This project highlights how system exposure directly affects reconnaissance results. Even a single open port can reveal critical system and service information to an attacker.
+
+---
+
+## Skills Gained
+
+- Network scanning using Nmap
+- Service and version detection
+- OS fingerprinting basics
+- Understanding attack surface
+- Basic security analysis
+
+---
