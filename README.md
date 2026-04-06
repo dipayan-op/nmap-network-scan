@@ -1,4 +1,4 @@
-# nmap-network-scan
+# nmap-attack-surface-analysis
 
 # Nmap Network Scanning & Service Analysis Lab
 
